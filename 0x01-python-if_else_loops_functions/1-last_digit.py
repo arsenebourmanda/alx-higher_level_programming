@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 numLD = abs(number) % 10
-if (number <0):
+if (number < 0):
     numLD = numLD * (-1)
 print(f"Last digit of {number} is {numLD} and is", end=" ")
 if (numLD > 5):
